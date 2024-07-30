@@ -1,0 +1,57 @@
+/* External CSS */
+
+/* Box Model */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.grocery-section {
+    width: 80%; /* Specifies the width of the sections */
+    border: 2px solid #000; /* Border for each section */
+    padding: 10px; /* Padding inside each section */
+    margin-bottom: 20px; /* Margin below each section */
+}
+
+.section-header {
+    padding: 5px;
+    text-align: center;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.category {
+    width: 45%; /* Each category takes up about half of the section */
+    margin: 10px 2.5%;
+    padding: 10px; /* Padding for categories */
+}
+
+.category h3 {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+.grocery-photo {
+    width: 45%; /* Photo takes up about half of the section */
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 10px; /* Padding for photos */
+}

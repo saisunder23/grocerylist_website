@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2c3e50; /* Dark background */
+    color: #ecf0f1; /* Light text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.header {
+    background-color: #1abc9c; /* Header background color */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.title {text-align: center;}
+
+.lyric_body {
+    text-align: center
+}
+
+.tswift-image1  {
+    width: 250px;
+    height: 175px;
+    display: block; /* Make the image a block-level element */
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.footer {
+    text-align: center;
+}
+
+.new-section {
+    text-align: center;
+    padding: 20px;
+}
+
+
+table {
+    width: 60%; /* Set a fixed width for consistency */
+    margin: 20px auto; /* Center tables */
+    border-collapse: collapse; /* Merge borders for cleaner look */
+}
+
+
+th, td {
+    border: 1px solid #ddd; /* Border for table cells */
+    padding: 8px; /* Padding inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #1abc9c; /* Background color for headers */
+    color: white; /* Text color for headers */
+}
+
+td[colspan="2"] {
+    text-align: center; /* Center align the cell text */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.footer {
+    text-align: center;
+    background-color: #1abc9c; /* Footer background color */
+    color: white;
+    padding: 10px 0;
+}
